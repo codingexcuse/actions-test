@@ -1,0 +1,1 @@
+This repository contains GitHub Actions workflows to automate CI/CD tasks such as testing, building, and deployment. It helps ensure consistent and reliable execution of development pipelines directly from GitHub.
