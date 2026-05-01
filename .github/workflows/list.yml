@@ -1,0 +1,14 @@
+name: Checkout test branch and list files 
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout Repository Code
+        uses: actions/checkout@v4
+
+      - name: list files
+        run: ls -la
