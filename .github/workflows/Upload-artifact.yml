@@ -10,7 +10,7 @@ jobs:
       - name: Checkout Repository Code
         uses: actions/checkout@v4
       - name: Create Output file
-        run: cat "This file is created with GitHub Actions!" > output.txt
+        run: echo "This file is created with GitHub Actions!" > output.txt
       - name: Upload output-file
         uses: actions/upload-artifact@v4
         with:
