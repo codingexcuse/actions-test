@@ -10,7 +10,7 @@ jobs:
       - name: Create File
         run: echo "This file is created from Github Actions!" > output.txt
       - name: Upload artifact to actions
-        uses: actions/checkout@v4
+        uses: actions/upload-artifact@v4
         with:
           name: shared-file
           path: output.txt
